@@ -61,7 +61,6 @@ public class CouponController {
    // @RequiresPermissions("coupon:coupon:save")
     public R save(@RequestBody CouponEntity coupon){
 		couponService.save(coupon);
-
         return R.ok();
     }
 
